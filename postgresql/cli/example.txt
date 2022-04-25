@@ -1,0 +1,11 @@
+Example 1:
+
+psql -h postgres.polyscale.global \
+-p 5432 \
+-U [dbuser]] \
+-d 'dbname=[dbname] application_name=[appname]'
+
+
+Example 2:
+
+psql "host=postgres.polyscale.global sslmode=require port=5432 user='dbuser' dbname='dbname' application_name='appname'"
