@@ -1,7 +1,7 @@
 <?php
 $dbuser = '';
 $dbpass = '';
-$host = 'postgres.polyscale.global';
+$host = 'psedge.global';
 $port = 5432;
 $dbname = '';
 $appname = '';

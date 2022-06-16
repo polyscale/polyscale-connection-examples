@@ -3,7 +3,7 @@
 const db = require("knex")({
   client: "mysql2",
   connection: {
-    host: "mysql.polyscale.global",
+    host: "psedge.global",
     port: 3306,
     user: "[cacheid]-[dbuser]",
     password: "",

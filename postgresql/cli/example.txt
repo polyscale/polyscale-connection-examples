@@ -1,6 +1,6 @@
 Example 1:
 
-psql -h postgres.polyscale.global \
+psql -h psedge.global \
 -p 5432 \
 -U [dbuser]] \
 -d 'dbname=[dbname] application_name=[cache_id]'
@@ -8,7 +8,7 @@ psql -h postgres.polyscale.global \
 
 Example 2:
 
-psql "host=postgres.polyscale.global \
+psql "host=psedge.global \
 sslmode=require \
 port=5432 \
 user='dbuser' \

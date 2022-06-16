@@ -1,1 +1,1 @@
-mysql -h mysql.polyscale.global -u [cacheid]-[dbuser] --ssl-mode=REQUIRED -p
+mysql -h psedge.global -u [cacheid]-[dbuser] --ssl-mode=REQUIRED -p

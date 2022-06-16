@@ -4,7 +4,7 @@ const { Client } = require("pg");
 
 (async () => {
   const client = new Client({
-    host: "postgres.polyscale.global",
+    host: "psedge.global",
     database: "",
     user: "",
     password: "",
