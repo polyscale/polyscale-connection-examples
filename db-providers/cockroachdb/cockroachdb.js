@@ -1,6 +1,6 @@
 "use strict";
 // polyscale
-const DATABASE_URL = "postgresql://COCKROACH_DB_USERNAME:COCKROACH_DB_PASSWORD@psedge.global:5432/COCKROACH_DATABASENAME?options=--cluster%3DCOCKROACH_DB_CLUSTERNAME&sslmode=require&application_name=POLYSCALE_CACHE_ID";
+const DATABASE_URL = "postgresql://COCKROACH_DB_USERNAME:COCKROACH_DB_PASSWORD@psedge.global:5432/COCKROACH_DATABASENAME?options=--cluster=COCKROACH_DB_CLUSTERNAME&sslmode=require&application_name=POLYSCALE_CACHE_ID";
 
 const { Client } = require("pg");
 
