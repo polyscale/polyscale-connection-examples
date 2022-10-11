@@ -2,7 +2,7 @@ Example 1:
 
 psql -h psedge.global \
 -p 5432 \
--U [dbuser]] \
+-U [dbuser] \
 -d 'dbname=[dbname] application_name=[cache_id]'
 
 
